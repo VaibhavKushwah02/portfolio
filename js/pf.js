@@ -36,12 +36,12 @@ window.onscroll = () => {
 ScrollReveal({
     // reset: true,
     distance:'80px',
-    duration:2000,
+    duration:1700,
     delay:200
 });
 
     ScrollReveal().reveal('.home-content, .about-content, .heading', {origin:'top'});
-    ScrollReveal().reveal('.home-img, .services-container, .wrap', {origin:'bottom'});
+    ScrollReveal().reveal('.home-img, .services-container, .about-content p , .wrap', {origin:'bottom'});
     ScrollReveal().reveal('.home-content h1, .first-row, .about-img', {origin:'left'});
     ScrollReveal().reveal('.experience-area, .home-content p', {origin:'Right'});
     
@@ -52,3 +52,7 @@ const typed = new Typed('.multiple-text',{
     backDelay:1000,
     loop:true
 });
+
+
+
+
